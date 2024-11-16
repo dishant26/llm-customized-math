@@ -1,0 +1,3169 @@
+{
+  "qa_pairs": [
+    {
+      "question": "Show me the AVG/G corresponding to Georgia",
+      "answer_steps": [
+        "# Python code to find the AVG/G for Georgia",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Georgia']['AVG/G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The AVG/G for Georgia is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of PAT for Texas?",
+      "answer_steps": [
+        "# Python code to find the PAT for Texas",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Texas']['PAT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PAT for Texas is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the PAT for Missouri?",
+      "answer_steps": [
+        "# Python code to find the PAT for Missouri",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Missouri']['PAT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PAT for Missouri is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of PTS for Texas?",
+      "answer_steps": [
+        "# Python code to find the PTS for Texas",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Texas']['PTS'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PTS for Texas is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the PTS for Alabama?",
+      "answer_steps": [
+        "# Python code to find the PTS for Alabama",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Alabama']['PTS'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PTS for Alabama is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the FG for Tennessee?",
+      "answer_steps": [
+        "# Python code to find the FG for Tennessee",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Tennessee']['FG'].values[0]",
+        "# Format and return the result",
+        "answer = f'The FG for Tennessee is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the FG for Mississippi St.?",
+      "answer_steps": [
+        "# Python code to find the FG for Mississippi St.",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Mississippi St.']['FG'].values[0]",
+        "# Format and return the result",
+        "answer = f'The FG for Mississippi St. is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the TD corresponding to LSU",
+      "answer_steps": [
+        "# Python code to find the TD for LSU",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'LSU']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for LSU is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the PTS for Tennessee?",
+      "answer_steps": [
+        "# Python code to find the PTS for Tennessee",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Tennessee']['PTS'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PTS for Tennessee is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the TD corresponding to Mississippi St.",
+      "answer_steps": [
+        "# Python code to find the TD for Mississippi St.",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Mississippi St.']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for Mississippi St. is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the G for Arkansas?",
+      "answer_steps": [
+        "# Python code to find the G for Arkansas",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Arkansas']['G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The G for Arkansas is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the SAF corresponding to LSU",
+      "answer_steps": [
+        "# Python code to find the SAF for LSU",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'LSU']['SAF'].values[0]",
+        "# Format and return the result",
+        "answer = f'The SAF for LSU is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of SAF for Alabama?",
+      "answer_steps": [
+        "# Python code to find the SAF for Alabama",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Alabama']['SAF'].values[0]",
+        "# Format and return the result",
+        "answer = f'The SAF for Alabama is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of 2PT for Kentucky?",
+      "answer_steps": [
+        "# Python code to find the 2PT for Kentucky",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Kentucky']['2PT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The 2PT for Kentucky is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the PAT corresponding to Arkansas",
+      "answer_steps": [
+        "# Python code to find the PAT for Arkansas",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Arkansas']['PAT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PAT for Arkansas is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the PTS for Arkansas?",
+      "answer_steps": [
+        "# Python code to find the PTS for Arkansas",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Arkansas']['PTS'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PTS for Arkansas is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of G for Kentucky?",
+      "answer_steps": [
+        "# Python code to find the G for Kentucky",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Kentucky']['G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The G for Kentucky is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the FG for Florida?",
+      "answer_steps": [
+        "# Python code to find the FG for Florida",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Florida']['FG'].values[0]",
+        "# Format and return the result",
+        "answer = f'The FG for Florida is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of SAF for Arkansas?",
+      "answer_steps": [
+        "# Python code to find the SAF for Arkansas",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Arkansas']['SAF'].values[0]",
+        "# Format and return the result",
+        "answer = f'The SAF for Arkansas is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the PAT for Missouri?",
+      "answer_steps": [
+        "# Python code to find the PAT for Missouri",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Missouri']['PAT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PAT for Missouri is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the PAT for Georgia?",
+      "answer_steps": [
+        "# Python code to find the PAT for Georgia",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Georgia']['PAT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PAT for Georgia is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the G corresponding to Mississippi St.",
+      "answer_steps": [
+        "# Python code to find the G for Mississippi St.",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Mississippi St.']['G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The G for Mississippi St. is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the FG corresponding to Florida",
+      "answer_steps": [
+        "# Python code to find the FG for Florida",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Florida']['FG'].values[0]",
+        "# Format and return the result",
+        "answer = f'The FG for Florida is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the TD for Oklahoma?",
+      "answer_steps": [
+        "# Python code to find the TD for Oklahoma",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Oklahoma']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for Oklahoma is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of PTS for Mississippi St.?",
+      "answer_steps": [
+        "# Python code to find the PTS for Mississippi St.",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Mississippi St.']['PTS'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PTS for Mississippi St. is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the TD corresponding to Alabama",
+      "answer_steps": [
+        "# Python code to find the TD for Alabama",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Alabama']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for Alabama is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the 2PT corresponding to LSU",
+      "answer_steps": [
+        "# Python code to find the 2PT for LSU",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'LSU']['2PT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The 2PT for LSU is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the TD corresponding to Oklahoma",
+      "answer_steps": [
+        "# Python code to find the TD for Oklahoma",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Oklahoma']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for Oklahoma is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the G for Oklahoma?",
+      "answer_steps": [
+        "# Python code to find the G for Oklahoma",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Oklahoma']['G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The G for Oklahoma is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of G for South Carolina?",
+      "answer_steps": [
+        "# Python code to find the G for South Carolina",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'South Carolina']['G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The G for South Carolina is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the G for Vanderbilt?",
+      "answer_steps": [
+        "# Python code to find the G for Vanderbilt",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Vanderbilt']['G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The G for Vanderbilt is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the AVG/G corresponding to Kentucky",
+      "answer_steps": [
+        "# Python code to find the AVG/G for Kentucky",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Kentucky']['AVG/G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The AVG/G for Kentucky is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the G corresponding to Auburn",
+      "answer_steps": [
+        "# Python code to find the G for Auburn",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Auburn']['G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The G for Auburn is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the PAT corresponding to Kentucky",
+      "answer_steps": [
+        "# Python code to find the PAT for Kentucky",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Kentucky']['PAT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PAT for Kentucky is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the SAF for Texas A&M?",
+      "answer_steps": [
+        "# Python code to find the SAF for Texas A&M",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Texas A&M']['SAF'].values[0]",
+        "# Format and return the result",
+        "answer = f'The SAF for Texas A&M is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the TD corresponding to Georgia",
+      "answer_steps": [
+        "# Python code to find the TD for Georgia",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Georgia']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for Georgia is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of 2PT for Mississippi St.?",
+      "answer_steps": [
+        "# Python code to find the 2PT for Mississippi St.",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Mississippi St.']['2PT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The 2PT for Mississippi St. is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the FG corresponding to Tennessee",
+      "answer_steps": [
+        "# Python code to find the FG for Tennessee",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Tennessee']['FG'].values[0]",
+        "# Format and return the result",
+        "answer = f'The FG for Tennessee is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the 2PT corresponding to Georgia",
+      "answer_steps": [
+        "# Python code to find the 2PT for Georgia",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Georgia']['2PT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The 2PT for Georgia is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the TD corresponding to Auburn",
+      "answer_steps": [
+        "# Python code to find the TD for Auburn",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Auburn']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for Auburn is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the 2PT for Alabama?",
+      "answer_steps": [
+        "# Python code to find the 2PT for Alabama",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Alabama']['2PT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The 2PT for Alabama is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the FG for Georgia?",
+      "answer_steps": [
+        "# Python code to find the FG for Georgia",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Georgia']['FG'].values[0]",
+        "# Format and return the result",
+        "answer = f'The FG for Georgia is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What is the 2PT for Alabama?",
+      "answer_steps": [
+        "# Python code to find the 2PT for Alabama",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Alabama']['2PT'].values[0]",
+        "# Format and return the result",
+        "answer = f'The 2PT for Alabama is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the PTS corresponding to Florida",
+      "answer_steps": [
+        "# Python code to find the PTS for Florida",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Florida']['PTS'].values[0]",
+        "# Format and return the result",
+        "answer = f'The PTS for Florida is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the G corresponding to LSU",
+      "answer_steps": [
+        "# Python code to find the G for LSU",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'LSU']['G'].values[0]",
+        "# Format and return the result",
+        "answer = f'The G for LSU is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of TD for Vanderbilt?",
+      "answer_steps": [
+        "# Python code to find the TD for Vanderbilt",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Vanderbilt']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for Vanderbilt is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of SAF for Mississippi St.?",
+      "answer_steps": [
+        "# Python code to find the SAF for Mississippi St.",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Mississippi St.']['SAF'].values[0]",
+        "# Format and return the result",
+        "answer = f'The SAF for Mississippi St. is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the TD corresponding to Ole Miss",
+      "answer_steps": [
+        "# Python code to find the TD for Ole Miss",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Ole Miss']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for Ole Miss is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "What's the value of FG for Texas?",
+      "answer_steps": [
+        "# Python code to find the FG for Texas",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'Texas']['FG'].values[0]",
+        "# Format and return the result",
+        "answer = f'The FG for Texas is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "Show me the TD corresponding to South Carolina",
+      "answer_steps": [
+        "# Python code to find the TD for South Carolina",
+        "# Filter the dataframe for the specific team",
+        "result = df[df['team'] == 'South Carolina']['TD'].values[0]",
+        "# Format and return the result",
+        "answer = f'The TD for South Carolina is '"
+      ],
+      "category": "direct_recall",
+      "answer_type": "direct_recall"
+    },
+    {
+      "question": "List the top 3 teams by PAT",
+      "answer_steps": [
+        "# Python code to find top 3 teams by PAT",
+        "# Sort the dataframe by PAT in descending order",
+        "sorted_df = df.sort_values('PAT', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['PAT']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by PAT:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "List the top 3 teams by PAT",
+      "answer_steps": [
+        "# Python code to find top 3 teams by PAT",
+        "# Sort the dataframe by PAT in descending order",
+        "sorted_df = df.sort_values('PAT', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['PAT']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by PAT:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "List the top 3 teams by SAF",
+      "answer_steps": [
+        "# Python code to find top 3 teams by SAF",
+        "# Sort the dataframe by SAF in descending order",
+        "sorted_df = df.sort_values('SAF', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['SAF']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by SAF:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the lowest 2PT?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest 2PT",
+        "# Sort the dataframe by 2PT in {sort_order} order",
+        "sorted_df = df.sort_values('2PT', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['2PT']",
+        "# Format and return the result",
+        "answer = f'The team with lowest 2PT is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest SAF?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest SAF",
+        "# Sort the dataframe by SAF in {sort_order} order",
+        "sorted_df = df.sort_values('SAF', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['SAF']",
+        "# Format and return the result",
+        "answer = f'The team with lowest SAF is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest G?",
+      "answer_steps": [
+        "# Python code to find the team with the highest G",
+        "# Sort the dataframe by G in {sort_order} order",
+        "sorted_df = df.sort_values('G', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['G']",
+        "# Format and return the result",
+        "answer = f'The team with highest G is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest TD?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest TD",
+        "# Sort the dataframe by TD in {sort_order} order",
+        "sorted_df = df.sort_values('TD', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['TD']",
+        "# Format and return the result",
+        "answer = f'The team with lowest TD is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "List the top 5 teams by 2PT",
+      "answer_steps": [
+        "# Python code to find top 5 teams by 2PT",
+        "# Sort the dataframe by 2PT in descending order",
+        "sorted_df = df.sort_values('2PT', ascending=False)",
+        "# Select top 5 rows",
+        "top_n_df = sorted_df.head(5)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['2PT']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 5 teams by 2PT:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the highest TD?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest TD",
+        "# Sort the dataframe by TD in {sort_order} order",
+        "sorted_df = df.sort_values('TD', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['TD']",
+        "# Format and return the result",
+        "answer = f'The team with lowest TD is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest TD?",
+      "answer_steps": [
+        "# Python code to find the team with the highest TD",
+        "# Sort the dataframe by TD in {sort_order} order",
+        "sorted_df = df.sort_values('TD', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['TD']",
+        "# Format and return the result",
+        "answer = f'The team with highest TD is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest FG?",
+      "answer_steps": [
+        "# Python code to find the team with the highest FG",
+        "# Sort the dataframe by FG in {sort_order} order",
+        "sorted_df = df.sort_values('FG', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['FG']",
+        "# Format and return the result",
+        "answer = f'The team with highest FG is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest PAT?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest PAT",
+        "# Sort the dataframe by PAT in {sort_order} order",
+        "sorted_df = df.sort_values('PAT', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['PAT']",
+        "# Format and return the result",
+        "answer = f'The team with lowest PAT is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest AVG/G?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest AVG/G",
+        "# Sort the dataframe by AVG/G in {sort_order} order",
+        "sorted_df = df.sort_values('AVG/G', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['AVG/G']",
+        "# Format and return the result",
+        "answer = f'The team with lowest AVG/G is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "List the top 5 teams by G",
+      "answer_steps": [
+        "# Python code to find top 5 teams by G",
+        "# Sort the dataframe by G in descending order",
+        "sorted_df = df.sort_values('G', ascending=False)",
+        "# Select top 5 rows",
+        "top_n_df = sorted_df.head(5)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['G']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 5 teams by G:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the highest 2PT?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest 2PT",
+        "# Sort the dataframe by 2PT in {sort_order} order",
+        "sorted_df = df.sort_values('2PT', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['2PT']",
+        "# Format and return the result",
+        "answer = f'The team with lowest 2PT is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest FG?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest FG",
+        "# Sort the dataframe by FG in {sort_order} order",
+        "sorted_df = df.sort_values('FG', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['FG']",
+        "# Format and return the result",
+        "answer = f'The team with lowest FG is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "List the top 3 teams by TD",
+      "answer_steps": [
+        "# Python code to find top 3 teams by TD",
+        "# Sort the dataframe by TD in descending order",
+        "sorted_df = df.sort_values('TD', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['TD']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by TD:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the lowest AVG/G?",
+      "answer_steps": [
+        "# Python code to find the team with the highest AVG/G",
+        "# Sort the dataframe by AVG/G in {sort_order} order",
+        "sorted_df = df.sort_values('AVG/G', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['AVG/G']",
+        "# Format and return the result",
+        "answer = f'The team with highest AVG/G is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest AVG/G?",
+      "answer_steps": [
+        "# Python code to find the team with the highest AVG/G",
+        "# Sort the dataframe by AVG/G in {sort_order} order",
+        "sorted_df = df.sort_values('AVG/G', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['AVG/G']",
+        "# Format and return the result",
+        "answer = f'The team with highest AVG/G is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest SAF?",
+      "answer_steps": [
+        "# Python code to find the team with the highest SAF",
+        "# Sort the dataframe by SAF in {sort_order} order",
+        "sorted_df = df.sort_values('SAF', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['SAF']",
+        "# Format and return the result",
+        "answer = f'The team with highest SAF is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest AVG/G?",
+      "answer_steps": [
+        "# Python code to find the team with the highest AVG/G",
+        "# Sort the dataframe by AVG/G in {sort_order} order",
+        "sorted_df = df.sort_values('AVG/G', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['AVG/G']",
+        "# Format and return the result",
+        "answer = f'The team with highest AVG/G is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest PTS?",
+      "answer_steps": [
+        "# Python code to find the team with the highest PTS",
+        "# Sort the dataframe by PTS in {sort_order} order",
+        "sorted_df = df.sort_values('PTS', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['PTS']",
+        "# Format and return the result",
+        "answer = f'The team with highest PTS is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "List the top 3 teams by TD",
+      "answer_steps": [
+        "# Python code to find top 3 teams by TD",
+        "# Sort the dataframe by TD in descending order",
+        "sorted_df = df.sort_values('TD', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['TD']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by TD:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the lowest PTS?",
+      "answer_steps": [
+        "# Python code to find the team with the highest PTS",
+        "# Sort the dataframe by PTS in {sort_order} order",
+        "sorted_df = df.sort_values('PTS', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['PTS']",
+        "# Format and return the result",
+        "answer = f'The team with highest PTS is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest G?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest G",
+        "# Sort the dataframe by G in {sort_order} order",
+        "sorted_df = df.sort_values('G', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['G']",
+        "# Format and return the result",
+        "answer = f'The team with lowest G is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest SAF?",
+      "answer_steps": [
+        "# Python code to find the team with the highest SAF",
+        "# Sort the dataframe by SAF in {sort_order} order",
+        "sorted_df = df.sort_values('SAF', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['SAF']",
+        "# Format and return the result",
+        "answer = f'The team with highest SAF is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest TD?",
+      "answer_steps": [
+        "# Python code to find the team with the highest TD",
+        "# Sort the dataframe by TD in {sort_order} order",
+        "sorted_df = df.sort_values('TD', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['TD']",
+        "# Format and return the result",
+        "answer = f'The team with highest TD is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest 2PT?",
+      "answer_steps": [
+        "# Python code to find the team with the highest 2PT",
+        "# Sort the dataframe by 2PT in {sort_order} order",
+        "sorted_df = df.sort_values('2PT', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['2PT']",
+        "# Format and return the result",
+        "answer = f'The team with highest 2PT is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest SAF?",
+      "answer_steps": [
+        "# Python code to find the team with the highest SAF",
+        "# Sort the dataframe by SAF in {sort_order} order",
+        "sorted_df = df.sort_values('SAF', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['SAF']",
+        "# Format and return the result",
+        "answer = f'The team with highest SAF is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest PTS?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest PTS",
+        "# Sort the dataframe by PTS in {sort_order} order",
+        "sorted_df = df.sort_values('PTS', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['PTS']",
+        "# Format and return the result",
+        "answer = f'The team with lowest PTS is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "List the top 5 teams by 2PT",
+      "answer_steps": [
+        "# Python code to find top 5 teams by 2PT",
+        "# Sort the dataframe by 2PT in descending order",
+        "sorted_df = df.sort_values('2PT', ascending=False)",
+        "# Select top 5 rows",
+        "top_n_df = sorted_df.head(5)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['2PT']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 5 teams by 2PT:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the lowest 2PT?",
+      "answer_steps": [
+        "# Python code to find the team with the highest 2PT",
+        "# Sort the dataframe by 2PT in {sort_order} order",
+        "sorted_df = df.sort_values('2PT', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['2PT']",
+        "# Format and return the result",
+        "answer = f'The team with highest 2PT is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "List the top 3 teams by FG",
+      "answer_steps": [
+        "# Python code to find top 3 teams by FG",
+        "# Sort the dataframe by FG in descending order",
+        "sorted_df = df.sort_values('FG', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['FG']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by FG:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the highest PTS?",
+      "answer_steps": [
+        "# Python code to find the team with the highest PTS",
+        "# Sort the dataframe by PTS in {sort_order} order",
+        "sorted_df = df.sort_values('PTS', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['PTS']",
+        "# Format and return the result",
+        "answer = f'The team with highest PTS is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest PAT?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest PAT",
+        "# Sort the dataframe by PAT in {sort_order} order",
+        "sorted_df = df.sort_values('PAT', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['PAT']",
+        "# Format and return the result",
+        "answer = f'The team with lowest PAT is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "List the top 5 teams by 2PT",
+      "answer_steps": [
+        "# Python code to find top 5 teams by 2PT",
+        "# Sort the dataframe by 2PT in descending order",
+        "sorted_df = df.sort_values('2PT', ascending=False)",
+        "# Select top 5 rows",
+        "top_n_df = sorted_df.head(5)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['2PT']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 5 teams by 2PT:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the highest SAF?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest SAF",
+        "# Sort the dataframe by SAF in {sort_order} order",
+        "sorted_df = df.sort_values('SAF', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['SAF']",
+        "# Format and return the result",
+        "answer = f'The team with lowest SAF is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "List the top 3 teams by PTS",
+      "answer_steps": [
+        "# Python code to find top 3 teams by PTS",
+        "# Sort the dataframe by PTS in descending order",
+        "sorted_df = df.sort_values('PTS', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['PTS']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by PTS:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "List the top 5 teams by AVG/G",
+      "answer_steps": [
+        "# Python code to find top 5 teams by AVG/G",
+        "# Sort the dataframe by AVG/G in descending order",
+        "sorted_df = df.sort_values('AVG/G', ascending=False)",
+        "# Select top 5 rows",
+        "top_n_df = sorted_df.head(5)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['AVG/G']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 5 teams by AVG/G:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "List the top 3 teams by PTS",
+      "answer_steps": [
+        "# Python code to find top 3 teams by PTS",
+        "# Sort the dataframe by PTS in descending order",
+        "sorted_df = df.sort_values('PTS', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['PTS']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by PTS:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "List the top 5 teams by AVG/G",
+      "answer_steps": [
+        "# Python code to find top 5 teams by AVG/G",
+        "# Sort the dataframe by AVG/G in descending order",
+        "sorted_df = df.sort_values('AVG/G', ascending=False)",
+        "# Select top 5 rows",
+        "top_n_df = sorted_df.head(5)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['AVG/G']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 5 teams by AVG/G:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the lowest TD?",
+      "answer_steps": [
+        "# Python code to find the team with the highest TD",
+        "# Sort the dataframe by TD in {sort_order} order",
+        "sorted_df = df.sort_values('TD', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['TD']",
+        "# Format and return the result",
+        "answer = f'The team with highest TD is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "List the top 3 teams by G",
+      "answer_steps": [
+        "# Python code to find top 3 teams by G",
+        "# Sort the dataframe by G in descending order",
+        "sorted_df = df.sort_values('G', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['G']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by G:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "List the top 3 teams by PAT",
+      "answer_steps": [
+        "# Python code to find top 3 teams by PAT",
+        "# Sort the dataframe by PAT in descending order",
+        "sorted_df = df.sort_values('PAT', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['PAT']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by PAT:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "List the top 5 teams by FG",
+      "answer_steps": [
+        "# Python code to find top 5 teams by FG",
+        "# Sort the dataframe by FG in descending order",
+        "sorted_df = df.sort_values('FG', ascending=False)",
+        "# Select top 5 rows",
+        "top_n_df = sorted_df.head(5)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['FG']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 5 teams by FG:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "List the top 3 teams by G",
+      "answer_steps": [
+        "# Python code to find top 3 teams by G",
+        "# Sort the dataframe by G in descending order",
+        "sorted_df = df.sort_values('G', ascending=False)",
+        "# Select top 3 rows",
+        "top_n_df = sorted_df.head(3)",
+        "# Create a formatted string with the results",
+        "result_list = []",
+        "for _, row in top_n_df.iterrows():",
+        "    result_list.append(f\"- {row['team']}: {row['G']}\")",
+        "# Join the results with newlines",
+        "answer = 'Top 3 teams by G:\\n' + '\\n'.join(result_list)"
+      ],
+      "category": "ranking",
+      "answer_type": "top_n"
+    },
+    {
+      "question": "Which team has the lowest FG?",
+      "answer_steps": [
+        "# Python code to find the team with the highest FG",
+        "# Sort the dataframe by FG in {sort_order} order",
+        "sorted_df = df.sort_values('FG', ascending=false)",
+        "# Get the first row which has the highest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['FG']",
+        "# Format and return the result",
+        "answer = f'The team with highest FG is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the highest G?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest G",
+        "# Sort the dataframe by G in {sort_order} order",
+        "sorted_df = df.sort_values('G', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['G']",
+        "# Format and return the result",
+        "answer = f'The team with lowest G is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest PTS?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest PTS",
+        "# Sort the dataframe by PTS in {sort_order} order",
+        "sorted_df = df.sort_values('PTS', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['PTS']",
+        "# Format and return the result",
+        "answer = f'The team with lowest PTS is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Which team has the lowest AVG/G?",
+      "answer_steps": [
+        "# Python code to find the team with the lowest AVG/G",
+        "# Sort the dataframe by AVG/G in {sort_order} order",
+        "sorted_df = df.sort_values('AVG/G', ascending=true)",
+        "# Get the first row which has the lowest value",
+        "result_entity = sorted_df.iloc[0]['team']",
+        "result_value = sorted_df.iloc[0]['AVG/G']",
+        "# Format and return the result",
+        "answer = f'The team with lowest AVG/G is {result_entity} with a value of {result_value}'"
+      ],
+      "category": "ranking",
+      "answer_type": "highest/lowest"
+    },
+    {
+      "question": "Calculate the difference in TD between Oklahoma and Alabama",
+      "answer_steps": [
+        "# Python code to calculate difference in TD between Oklahoma and Alabama",
+        "# Get TD value for Oklahoma",
+        "value1 = df[df['team'] == 'Oklahoma']['TD'].values[0]",
+        "# Get TD value for Alabama",
+        "value2 = df[df['team'] == 'Alabama']['TD'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in TD between Oklahoma and Alabama is -17'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "What is the sum of PAT for South Carolina and Florida?",
+      "answer_steps": [
+        "# Python code to calculate sum of PAT for South Carolina and Florida",
+        "# Get PAT value for South Carolina",
+        "value1 = df[df['team'] == 'South Carolina']['PAT'].values[0]",
+        "# Get PAT value for Florida",
+        "value2 = df[df['team'] == 'Florida']['PAT'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of PAT for South Carolina and Florida is 60'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the sum of TD for Vanderbilt and Mississippi St.?",
+      "answer_steps": [
+        "# Python code to calculate sum of TD for Vanderbilt and Mississippi St.",
+        "# Get TD value for Vanderbilt",
+        "value1 = df[df['team'] == 'Vanderbilt']['TD'].values[0]",
+        "# Get TD value for Mississippi St.",
+        "value2 = df[df['team'] == 'Mississippi St.']['TD'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of TD for Vanderbilt and Mississippi St. is 69'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the average G for Arkansas and Oklahoma?",
+      "answer_steps": [
+        "# Python code to calculate average G for Arkansas and Oklahoma",
+        "# Get G value for Arkansas",
+        "value1 = df[df['team'] == 'Arkansas']['G'].values[0]",
+        "# Get G value for Oklahoma",
+        "value2 = df[df['team'] == 'Oklahoma']['G'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average G for Arkansas and Oklahoma is 9.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the average 2PT for Tennessee and LSU?",
+      "answer_steps": [
+        "# Python code to calculate average 2PT for Tennessee and LSU",
+        "# Get 2PT value for Tennessee",
+        "value1 = df[df['team'] == 'Tennessee']['2PT'].values[0]",
+        "# Get 2PT value for LSU",
+        "value2 = df[df['team'] == 'LSU']['2PT'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average 2PT for Tennessee and LSU is 0.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the average G for Kentucky and South Carolina?",
+      "answer_steps": [
+        "# Python code to calculate average G for Kentucky and South Carolina",
+        "# Get G value for Kentucky",
+        "value1 = df[df['team'] == 'Kentucky']['G'].values[0]",
+        "# Get G value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['G'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average G for Kentucky and South Carolina is 9.0'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "Calculate the difference in G between Ole Miss and Texas",
+      "answer_steps": [
+        "# Python code to calculate difference in G between Ole Miss and Texas",
+        "# Get G value for Ole Miss",
+        "value1 = df[df['team'] == 'Ole Miss']['G'].values[0]",
+        "# Get G value for Texas",
+        "value2 = df[df['team'] == 'Texas']['G'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in G between Ole Miss and Texas is 1'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "Calculate the difference in FG between Texas A&M and Mississippi St.",
+      "answer_steps": [
+        "# Python code to calculate difference in FG between Texas A&M and Mississippi St.",
+        "# Get FG value for Texas A&M",
+        "value1 = df[df['team'] == 'Texas A&M']['FG'].values[0]",
+        "# Get FG value for Mississippi St.",
+        "value2 = df[df['team'] == 'Mississippi St.']['FG'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in FG between Texas A&M and Mississippi St. is 8'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "Calculate the difference in PTS between Georgia and South Carolina",
+      "answer_steps": [
+        "# Python code to calculate difference in PTS between Georgia and South Carolina",
+        "# Get PTS value for Georgia",
+        "value1 = df[df['team'] == 'Georgia']['PTS'].values[0]",
+        "# Get PTS value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['PTS'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in PTS between Georgia and South Carolina is 3'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "Calculate the difference in FG between Missouri and Ole Miss",
+      "answer_steps": [
+        "# Python code to calculate difference in FG between Missouri and Ole Miss",
+        "# Get FG value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['FG'].values[0]",
+        "# Get FG value for Ole Miss",
+        "value2 = df[df['team'] == 'Ole Miss']['FG'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in FG between Missouri and Ole Miss is -4'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "What is the sum of FG for Vanderbilt and Arkansas?",
+      "answer_steps": [
+        "# Python code to calculate sum of FG for Vanderbilt and Arkansas",
+        "# Get FG value for Vanderbilt",
+        "value1 = df[df['team'] == 'Vanderbilt']['FG'].values[0]",
+        "# Get FG value for Arkansas",
+        "value2 = df[df['team'] == 'Arkansas']['FG'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of FG for Vanderbilt and Arkansas is 29'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the sum of G for Kentucky and Auburn?",
+      "answer_steps": [
+        "# Python code to calculate sum of G for Kentucky and Auburn",
+        "# Get G value for Kentucky",
+        "value1 = df[df['team'] == 'Kentucky']['G'].values[0]",
+        "# Get G value for Auburn",
+        "value2 = df[df['team'] == 'Auburn']['G'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of G for Kentucky and Auburn is 18'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the sum of PAT for Florida and LSU?",
+      "answer_steps": [
+        "# Python code to calculate sum of PAT for Florida and LSU",
+        "# Get PAT value for Florida",
+        "value1 = df[df['team'] == 'Florida']['PAT'].values[0]",
+        "# Get PAT value for LSU",
+        "value2 = df[df['team'] == 'LSU']['PAT'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of PAT for Florida and LSU is 59'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the average G for LSU and Mississippi St.?",
+      "answer_steps": [
+        "# Python code to calculate average G for LSU and Mississippi St.",
+        "# Get G value for LSU",
+        "value1 = df[df['team'] == 'LSU']['G'].values[0]",
+        "# Get G value for Mississippi St.",
+        "value2 = df[df['team'] == 'Mississippi St.']['G'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average G for LSU and Mississippi St. is 9.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the average SAF for Alabama and Mississippi St.?",
+      "answer_steps": [
+        "# Python code to calculate average SAF for Alabama and Mississippi St.",
+        "# Get SAF value for Alabama",
+        "value1 = df[df['team'] == 'Alabama']['SAF'].values[0]",
+        "# Get SAF value for Mississippi St.",
+        "value2 = df[df['team'] == 'Mississippi St.']['SAF'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average SAF for Alabama and Mississippi St. is 0.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the average PTS for Vanderbilt and Missouri?",
+      "answer_steps": [
+        "# Python code to calculate average PTS for Vanderbilt and Missouri",
+        "# Get PTS value for Vanderbilt",
+        "value1 = df[df['team'] == 'Vanderbilt']['PTS'].values[0]",
+        "# Get PTS value for Missouri",
+        "value2 = df[df['team'] == 'Missouri']['PTS'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average PTS for Vanderbilt and Missouri is 266.0'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the sum of PTS for Tennessee and Vanderbilt?",
+      "answer_steps": [
+        "# Python code to calculate sum of PTS for Tennessee and Vanderbilt",
+        "# Get PTS value for Tennessee",
+        "value1 = df[df['team'] == 'Tennessee']['PTS'].values[0]",
+        "# Get PTS value for Vanderbilt",
+        "value2 = df[df['team'] == 'Vanderbilt']['PTS'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of PTS for Tennessee and Vanderbilt is 618'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the average PTS for Missouri and LSU?",
+      "answer_steps": [
+        "# Python code to calculate average PTS for Missouri and LSU",
+        "# Get PTS value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['PTS'].values[0]",
+        "# Get PTS value for LSU",
+        "value2 = df[df['team'] == 'LSU']['PTS'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average PTS for Missouri and LSU is 263.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "Calculate the difference in PTS between Texas A&M and Kentucky",
+      "answer_steps": [
+        "# Python code to calculate difference in PTS between Texas A&M and Kentucky",
+        "# Get PTS value for Texas A&M",
+        "value1 = df[df['team'] == 'Texas A&M']['PTS'].values[0]",
+        "# Get PTS value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['PTS'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in PTS between Texas A&M and Kentucky is 107'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "What is the sum of SAF for Missouri and LSU?",
+      "answer_steps": [
+        "# Python code to calculate sum of SAF for Missouri and LSU",
+        "# Get SAF value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['SAF'].values[0]",
+        "# Get SAF value for LSU",
+        "value2 = df[df['team'] == 'LSU']['SAF'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of SAF for Missouri and LSU is 1'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the average TD for Vanderbilt and Kentucky?",
+      "answer_steps": [
+        "# Python code to calculate average TD for Vanderbilt and Kentucky",
+        "# Get TD value for Vanderbilt",
+        "value1 = df[df['team'] == 'Vanderbilt']['TD'].values[0]",
+        "# Get TD value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['TD'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average TD for Vanderbilt and Kentucky is 26.0'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the sum of PAT for Mississippi St. and Tennessee?",
+      "answer_steps": [
+        "# Python code to calculate sum of PAT for Mississippi St. and Tennessee",
+        "# Get PAT value for Mississippi St.",
+        "value1 = df[df['team'] == 'Mississippi St.']['PAT'].values[0]",
+        "# Get PAT value for Tennessee",
+        "value2 = df[df['team'] == 'Tennessee']['PAT'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of PAT for Mississippi St. and Tennessee is 74'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the average PTS for Auburn and Texas A&M?",
+      "answer_steps": [
+        "# Python code to calculate average PTS for Auburn and Texas A&M",
+        "# Get PTS value for Auburn",
+        "value1 = df[df['team'] == 'Auburn']['PTS'].values[0]",
+        "# Get PTS value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['PTS'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average PTS for Auburn and Texas A&M is 253.0'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the average SAF for Oklahoma and Texas A&M?",
+      "answer_steps": [
+        "# Python code to calculate average SAF for Oklahoma and Texas A&M",
+        "# Get SAF value for Oklahoma",
+        "value1 = df[df['team'] == 'Oklahoma']['SAF'].values[0]",
+        "# Get SAF value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['SAF'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average SAF for Oklahoma and Texas A&M is 0.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the average SAF for Missouri and South Carolina?",
+      "answer_steps": [
+        "# Python code to calculate average SAF for Missouri and South Carolina",
+        "# Get SAF value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['SAF'].values[0]",
+        "# Get SAF value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['SAF'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average SAF for Missouri and South Carolina is 0.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "Calculate the difference in PAT between Kentucky and Arkansas",
+      "answer_steps": [
+        "# Python code to calculate difference in PAT between Kentucky and Arkansas",
+        "# Get PAT value for Kentucky",
+        "value1 = df[df['team'] == 'Kentucky']['PAT'].values[0]",
+        "# Get PAT value for Arkansas",
+        "value2 = df[df['team'] == 'Arkansas']['PAT'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in PAT between Kentucky and Arkansas is -20'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "Calculate the difference in AVG/G between Vanderbilt and Missouri",
+      "answer_steps": [
+        "# Python code to calculate difference in AVG/G between Vanderbilt and Missouri",
+        "# Get AVG/G value for Vanderbilt",
+        "value1 = df[df['team'] == 'Vanderbilt']['AVG/G'].values[0]",
+        "# Get AVG/G value for Missouri",
+        "value2 = df[df['team'] == 'Missouri']['AVG/G'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in AVG/G between Vanderbilt and Missouri is 0.0'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "Calculate the difference in SAF between Kentucky and Missouri",
+      "answer_steps": [
+        "# Python code to calculate difference in SAF between Kentucky and Missouri",
+        "# Get SAF value for Kentucky",
+        "value1 = df[df['team'] == 'Kentucky']['SAF'].values[0]",
+        "# Get SAF value for Missouri",
+        "value2 = df[df['team'] == 'Missouri']['SAF'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in SAF between Kentucky and Missouri is 0'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "What is the average FG for Missouri and Georgia?",
+      "answer_steps": [
+        "# Python code to calculate average FG for Missouri and Georgia",
+        "# Get FG value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['FG'].values[0]",
+        "# Get FG value for Georgia",
+        "value2 = df[df['team'] == 'Georgia']['FG'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average FG for Missouri and Georgia is 15.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the sum of PAT for South Carolina and Missouri?",
+      "answer_steps": [
+        "# Python code to calculate sum of PAT for South Carolina and Missouri",
+        "# Get PAT value for South Carolina",
+        "value1 = df[df['team'] == 'South Carolina']['PAT'].values[0]",
+        "# Get PAT value for Missouri",
+        "value2 = df[df['team'] == 'Missouri']['PAT'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of PAT for South Carolina and Missouri is 55'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "Calculate the difference in PTS between Texas and Auburn",
+      "answer_steps": [
+        "# Python code to calculate difference in PTS between Texas and Auburn",
+        "# Get PTS value for Texas",
+        "value1 = df[df['team'] == 'Texas']['PTS'].values[0]",
+        "# Get PTS value for Auburn",
+        "value2 = df[df['team'] == 'Auburn']['PTS'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in PTS between Texas and Auburn is 122'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "What is the sum of SAF for Mississippi St. and South Carolina?",
+      "answer_steps": [
+        "# Python code to calculate sum of SAF for Mississippi St. and South Carolina",
+        "# Get SAF value for Mississippi St.",
+        "value1 = df[df['team'] == 'Mississippi St.']['SAF'].values[0]",
+        "# Get SAF value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['SAF'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of SAF for Mississippi St. and South Carolina is 1'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the average AVG/G for South Carolina and Ole Miss?",
+      "answer_steps": [
+        "# Python code to calculate average AVG/G for South Carolina and Ole Miss",
+        "# Get AVG/G value for South Carolina",
+        "value1 = df[df['team'] == 'South Carolina']['AVG/G'].values[0]",
+        "# Get AVG/G value for Ole Miss",
+        "value2 = df[df['team'] == 'Ole Miss']['AVG/G'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average AVG/G for South Carolina and Ole Miss is 35.45'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the sum of SAF for LSU and Georgia?",
+      "answer_steps": [
+        "# Python code to calculate sum of SAF for LSU and Georgia",
+        "# Get SAF value for LSU",
+        "value1 = df[df['team'] == 'LSU']['SAF'].values[0]",
+        "# Get SAF value for Georgia",
+        "value2 = df[df['team'] == 'Georgia']['SAF'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of SAF for LSU and Georgia is 1'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the average FG for South Carolina and Texas?",
+      "answer_steps": [
+        "# Python code to calculate average FG for South Carolina and Texas",
+        "# Get FG value for South Carolina",
+        "value1 = df[df['team'] == 'South Carolina']['FG'].values[0]",
+        "# Get FG value for Texas",
+        "value2 = df[df['team'] == 'Texas']['FG'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average FG for South Carolina and Texas is 9.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "Calculate the difference in G between Oklahoma and Texas",
+      "answer_steps": [
+        "# Python code to calculate difference in G between Oklahoma and Texas",
+        "# Get G value for Oklahoma",
+        "value1 = df[df['team'] == 'Oklahoma']['G'].values[0]",
+        "# Get G value for Texas",
+        "value2 = df[df['team'] == 'Texas']['G'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in G between Oklahoma and Texas is 1'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "Calculate the difference in G between Vanderbilt and Georgia",
+      "answer_steps": [
+        "# Python code to calculate difference in G between Vanderbilt and Georgia",
+        "# Get G value for Vanderbilt",
+        "value1 = df[df['team'] == 'Vanderbilt']['G'].values[0]",
+        "# Get G value for Georgia",
+        "value2 = df[df['team'] == 'Georgia']['G'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in G between Vanderbilt and Georgia is 1'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "What is the average AVG/G for Missouri and Texas A&M?",
+      "answer_steps": [
+        "# Python code to calculate average AVG/G for Missouri and Texas A&M",
+        "# Get AVG/G value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['AVG/G'].values[0]",
+        "# Get AVG/G value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['AVG/G'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average AVG/G for Missouri and Texas A&M is 29.45'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the sum of SAF for Missouri and Texas A&M?",
+      "answer_steps": [
+        "# Python code to calculate sum of SAF for Missouri and Texas A&M",
+        "# Get SAF value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['SAF'].values[0]",
+        "# Get SAF value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['SAF'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of SAF for Missouri and Texas A&M is 0'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "Calculate the difference in FG between Tennessee and Texas",
+      "answer_steps": [
+        "# Python code to calculate difference in FG between Tennessee and Texas",
+        "# Get FG value for Tennessee",
+        "value1 = df[df['team'] == 'Tennessee']['FG'].values[0]",
+        "# Get FG value for Texas",
+        "value2 = df[df['team'] == 'Texas']['FG'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in FG between Tennessee and Texas is 10'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "What is the average G for Georgia and Kentucky?",
+      "answer_steps": [
+        "# Python code to calculate average G for Georgia and Kentucky",
+        "# Get G value for Georgia",
+        "value1 = df[df['team'] == 'Georgia']['G'].values[0]",
+        "# Get G value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['G'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average G for Georgia and Kentucky is 9.0'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "Calculate the difference in G between Mississippi St. and South Carolina",
+      "answer_steps": [
+        "# Python code to calculate difference in G between Mississippi St. and South Carolina",
+        "# Get G value for Mississippi St.",
+        "value1 = df[df['team'] == 'Mississippi St.']['G'].values[0]",
+        "# Get G value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['G'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in G between Mississippi St. and South Carolina is 1'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "What is the sum of AVG/G for Florida and Kentucky?",
+      "answer_steps": [
+        "# Python code to calculate sum of AVG/G for Florida and Kentucky",
+        "# Get AVG/G value for Florida",
+        "value1 = df[df['team'] == 'Florida']['AVG/G'].values[0]",
+        "# Get AVG/G value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['AVG/G'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of AVG/G for Florida and Kentucky is 47.1'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the average FG for Florida and Kentucky?",
+      "answer_steps": [
+        "# Python code to calculate average FG for Florida and Kentucky",
+        "# Get FG value for Florida",
+        "value1 = df[df['team'] == 'Florida']['FG'].values[0]",
+        "# Get FG value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['FG'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average FG for Florida and Kentucky is 11.5'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the sum of G for Arkansas and Texas A&M?",
+      "answer_steps": [
+        "# Python code to calculate sum of G for Arkansas and Texas A&M",
+        "# Get G value for Arkansas",
+        "value1 = df[df['team'] == 'Arkansas']['G'].values[0]",
+        "# Get G value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['G'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of G for Arkansas and Texas A&M is 18'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the sum of G for LSU and South Carolina?",
+      "answer_steps": [
+        "# Python code to calculate sum of G for LSU and South Carolina",
+        "# Get G value for LSU",
+        "value1 = df[df['team'] == 'LSU']['G'].values[0]",
+        "# Get G value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['G'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of G for LSU and South Carolina is 18'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "Calculate the difference in AVG/G between Tennessee and Auburn",
+      "answer_steps": [
+        "# Python code to calculate difference in AVG/G between Tennessee and Auburn",
+        "# Get AVG/G value for Tennessee",
+        "value1 = df[df['team'] == 'Tennessee']['AVG/G'].values[0]",
+        "# Get AVG/G value for Auburn",
+        "value2 = df[df['team'] == 'Auburn']['AVG/G'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in AVG/G between Tennessee and Auburn is 12.3'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "Calculate the difference in TD between Texas and Arkansas",
+      "answer_steps": [
+        "# Python code to calculate difference in TD between Texas and Arkansas",
+        "# Get TD value for Texas",
+        "value1 = df[df['team'] == 'Texas']['TD'].values[0]",
+        "# Get TD value for Arkansas",
+        "value2 = df[df['team'] == 'Arkansas']['TD'].values[0]",
+        "# Calculate the difference",
+        "result = value1 - value2",
+        "# Format and return the result",
+        "answer = f'The difference in TD between Texas and Arkansas is 10'"
+      ],
+      "category": "mathematical",
+      "answer_type": "difference"
+    },
+    {
+      "question": "What is the average G for Texas and Kentucky?",
+      "answer_steps": [
+        "# Python code to calculate average G for Texas and Kentucky",
+        "# Get G value for Texas",
+        "value1 = df[df['team'] == 'Texas']['G'].values[0]",
+        "# Get G value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['G'].values[0]",
+        "# Calculate the sum",
+        "total = value1 + value2",
+        "# Calculate the average",
+        "result = total / 2",
+        "# Format and return the result",
+        "answer = f'The average G for Texas and Kentucky is 9.0'"
+      ],
+      "category": "mathematical",
+      "answer_type": "average_two"
+    },
+    {
+      "question": "What is the sum of TD for Mississippi St. and Auburn?",
+      "answer_steps": [
+        "# Python code to calculate sum of TD for Mississippi St. and Auburn",
+        "# Get TD value for Mississippi St.",
+        "value1 = df[df['team'] == 'Mississippi St.']['TD'].values[0]",
+        "# Get TD value for Auburn",
+        "value2 = df[df['team'] == 'Auburn']['TD'].values[0]",
+        "# Calculate the sum",
+        "result = value1 + value2",
+        "# Format and return the result",
+        "answer = f'The sum of TD for Mississippi St. and Auburn is 66'"
+      ],
+      "category": "mathematical",
+      "answer_type": "sum_two"
+    },
+    {
+      "question": "What is the relative difference in G between Vanderbilt and Florida?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in G between Vanderbilt and Florida",
+        "# Get G value for Vanderbilt",
+        "value1 = df[df['team'] == 'Vanderbilt']['G'].values[0]",
+        "# Get G value for Florida",
+        "value2 = df[df['team'] == 'Florida']['G'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in G between Vanderbilt and Florida is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more SAF, Texas or Mississippi St.?",
+      "answer_steps": [
+        "# Python code to compare SAF between Texas and Mississippi St.",
+        "# Get SAF value for Texas",
+        "value1 = df[df['team'] == 'Texas']['SAF'].values[0]",
+        "# Get SAF value for Mississippi St.",
+        "value2 = df[df['team'] == 'Mississippi St.']['SAF'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Texas' if value1 > value2 else 'Mississippi St.'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Texas has more SAF with a value of 1'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more AVG/G, Texas or Kentucky?",
+      "answer_steps": [
+        "# Python code to compare AVG/G between Texas and Kentucky",
+        "# Get AVG/G value for Texas",
+        "value1 = df[df['team'] == 'Texas']['AVG/G'].values[0]",
+        "# Get AVG/G value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['AVG/G'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Texas' if value1 > value2 else 'Kentucky'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Texas has more AVG/G with a value of 38.9'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in PTS between Alabama and Auburn?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in PTS between Alabama and Auburn",
+        "# Get PTS value for Alabama",
+        "value1 = df[df['team'] == 'Alabama']['PTS'].values[0]",
+        "# Get PTS value for Auburn",
+        "value2 = df[df['team'] == 'Auburn']['PTS'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in PTS between Alabama and Auburn is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in G between Tennessee and Georgia?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in G between Tennessee and Georgia",
+        "# Get G value for Tennessee",
+        "value1 = df[df['team'] == 'Tennessee']['G'].values[0]",
+        "# Get G value for Georgia",
+        "value2 = df[df['team'] == 'Georgia']['G'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in G between Tennessee and Georgia is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in FG between Texas and Kentucky?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in FG between Texas and Kentucky",
+        "# Get FG value for Texas",
+        "value1 = df[df['team'] == 'Texas']['FG'].values[0]",
+        "# Get FG value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['FG'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in FG between Texas and Kentucky is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more PAT, Alabama or Florida?",
+      "answer_steps": [
+        "# Python code to compare PAT between Alabama and Florida",
+        "# Get PAT value for Alabama",
+        "value1 = df[df['team'] == 'Alabama']['PAT'].values[0]",
+        "# Get PAT value for Florida",
+        "value2 = df[df['team'] == 'Florida']['PAT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Alabama' if value1 > value2 else 'Florida'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Alabama has more PAT with a value of 45'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more PAT, Texas or Texas A&M?",
+      "answer_steps": [
+        "# Python code to compare PAT between Texas and Texas A&M",
+        "# Get PAT value for Texas",
+        "value1 = df[df['team'] == 'Texas']['PAT'].values[0]",
+        "# Get PAT value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['PAT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Texas' if value1 > value2 else 'Texas A&M'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Texas has more PAT with a value of 46'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more PAT, Georgia or Ole Miss?",
+      "answer_steps": [
+        "# Python code to compare PAT between Georgia and Ole Miss",
+        "# Get PAT value for Georgia",
+        "value1 = df[df['team'] == 'Georgia']['PAT'].values[0]",
+        "# Get PAT value for Ole Miss",
+        "value2 = df[df['team'] == 'Ole Miss']['PAT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Georgia' if value1 > value2 else 'Ole Miss'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Ole Miss has more PAT with a value of 47'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in SAF between Vanderbilt and Tennessee?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in SAF between Vanderbilt and Tennessee",
+        "# Get SAF value for Vanderbilt",
+        "value1 = df[df['team'] == 'Vanderbilt']['SAF'].values[0]",
+        "# Get SAF value for Tennessee",
+        "value2 = df[df['team'] == 'Tennessee']['SAF'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in SAF between Vanderbilt and Tennessee is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in AVG/G between Missouri and Ole Miss?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in AVG/G between Missouri and Ole Miss",
+        "# Get AVG/G value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['AVG/G'].values[0]",
+        "# Get AVG/G value for Ole Miss",
+        "value2 = df[df['team'] == 'Ole Miss']['AVG/G'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in AVG/G between Missouri and Ole Miss is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in TD between Arkansas and Auburn?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in TD between Arkansas and Auburn",
+        "# Get TD value for Arkansas",
+        "value1 = df[df['team'] == 'Arkansas']['TD'].values[0]",
+        "# Get TD value for Auburn",
+        "value2 = df[df['team'] == 'Auburn']['TD'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in TD between Arkansas and Auburn is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more AVG/G, LSU or Texas A&M?",
+      "answer_steps": [
+        "# Python code to compare AVG/G between LSU and Texas A&M",
+        "# Get AVG/G value for LSU",
+        "value1 = df[df['team'] == 'LSU']['AVG/G'].values[0]",
+        "# Get AVG/G value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['AVG/G'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'LSU' if value1 > value2 else 'Texas A&M'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Texas A&M has more AVG/G with a value of 30.9'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in TD between Texas A&M and Missouri?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in TD between Texas A&M and Missouri",
+        "# Get TD value for Texas A&M",
+        "value1 = df[df['team'] == 'Texas A&M']['TD'].values[0]",
+        "# Get TD value for Missouri",
+        "value2 = df[df['team'] == 'Missouri']['TD'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in TD between Texas A&M and Missouri is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in AVG/G between Auburn and South Carolina?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in AVG/G between Auburn and South Carolina",
+        "# Get AVG/G value for Auburn",
+        "value1 = df[df['team'] == 'Auburn']['AVG/G'].values[0]",
+        "# Get AVG/G value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['AVG/G'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in AVG/G between Auburn and South Carolina is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in 2PT between Mississippi St. and Florida?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in 2PT between Mississippi St. and Florida",
+        "# Get 2PT value for Mississippi St.",
+        "value1 = df[df['team'] == 'Mississippi St.']['2PT'].values[0]",
+        "# Get 2PT value for Florida",
+        "value2 = df[df['team'] == 'Florida']['2PT'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in 2PT between Mississippi St. and Florida is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more G, LSU or Georgia?",
+      "answer_steps": [
+        "# Python code to compare G between LSU and Georgia",
+        "# Get G value for LSU",
+        "value1 = df[df['team'] == 'LSU']['G'].values[0]",
+        "# Get G value for Georgia",
+        "value2 = df[df['team'] == 'Georgia']['G'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'LSU' if value1 > value2 else 'Georgia'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Georgia has more G with a value of 9'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in G between Florida and Texas?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in G between Florida and Texas",
+        "# Get G value for Florida",
+        "value1 = df[df['team'] == 'Florida']['G'].values[0]",
+        "# Get G value for Texas",
+        "value2 = df[df['team'] == 'Texas']['G'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in G between Florida and Texas is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more AVG/G, Arkansas or Kentucky?",
+      "answer_steps": [
+        "# Python code to compare AVG/G between Arkansas and Kentucky",
+        "# Get AVG/G value for Arkansas",
+        "value1 = df[df['team'] == 'Arkansas']['AVG/G'].values[0]",
+        "# Get AVG/G value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['AVG/G'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Arkansas' if value1 > value2 else 'Kentucky'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Arkansas has more AVG/G with a value of 33.0'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more 2PT, Arkansas or LSU?",
+      "answer_steps": [
+        "# Python code to compare 2PT between Arkansas and LSU",
+        "# Get 2PT value for Arkansas",
+        "value1 = df[df['team'] == 'Arkansas']['2PT'].values[0]",
+        "# Get 2PT value for LSU",
+        "value2 = df[df['team'] == 'LSU']['2PT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Arkansas' if value1 > value2 else 'LSU'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'LSU has more 2PT with a value of 1'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in PTS between Tennessee and Texas?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in PTS between Tennessee and Texas",
+        "# Get PTS value for Tennessee",
+        "value1 = df[df['team'] == 'Tennessee']['PTS'].values[0]",
+        "# Get PTS value for Texas",
+        "value2 = df[df['team'] == 'Texas']['PTS'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in PTS between Tennessee and Texas is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more FG, Georgia or Alabama?",
+      "answer_steps": [
+        "# Python code to compare FG between Georgia and Alabama",
+        "# Get FG value for Georgia",
+        "value1 = df[df['team'] == 'Georgia']['FG'].values[0]",
+        "# Get FG value for Alabama",
+        "value2 = df[df['team'] == 'Alabama']['FG'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Georgia' if value1 > value2 else 'Alabama'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Georgia has more FG with a value of 15'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more TD, Auburn or South Carolina?",
+      "answer_steps": [
+        "# Python code to compare TD between Auburn and South Carolina",
+        "# Get TD value for Auburn",
+        "value1 = df[df['team'] == 'Auburn']['TD'].values[0]",
+        "# Get TD value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['TD'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Auburn' if value1 > value2 else 'South Carolina'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'South Carolina has more TD with a value of 33'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in SAF between Texas A&M and South Carolina?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in SAF between Texas A&M and South Carolina",
+        "# Get SAF value for Texas A&M",
+        "value1 = df[df['team'] == 'Texas A&M']['SAF'].values[0]",
+        "# Get SAF value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['SAF'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in SAF between Texas A&M and South Carolina is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more TD, Alabama or Ole Miss?",
+      "answer_steps": [
+        "# Python code to compare TD between Alabama and Ole Miss",
+        "# Get TD value for Alabama",
+        "value1 = df[df['team'] == 'Alabama']['TD'].values[0]",
+        "# Get TD value for Ole Miss",
+        "value2 = df[df['team'] == 'Ole Miss']['TD'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Alabama' if value1 > value2 else 'Ole Miss'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Ole Miss has more TD with a value of 50'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in PTS between Missouri and Texas?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in PTS between Missouri and Texas",
+        "# Get PTS value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['PTS'].values[0]",
+        "# Get PTS value for Texas",
+        "value2 = df[df['team'] == 'Texas']['PTS'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in PTS between Missouri and Texas is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more PAT, Missouri or Arkansas?",
+      "answer_steps": [
+        "# Python code to compare PAT between Missouri and Arkansas",
+        "# Get PAT value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['PAT'].values[0]",
+        "# Get PAT value for Arkansas",
+        "value2 = df[df['team'] == 'Arkansas']['PAT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Missouri' if value1 > value2 else 'Arkansas'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Arkansas has more PAT with a value of 36'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more AVG/G, Texas or Kentucky?",
+      "answer_steps": [
+        "# Python code to compare AVG/G between Texas and Kentucky",
+        "# Get AVG/G value for Texas",
+        "value1 = df[df['team'] == 'Texas']['AVG/G'].values[0]",
+        "# Get AVG/G value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['AVG/G'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Texas' if value1 > value2 else 'Kentucky'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Texas has more AVG/G with a value of 38.9'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in PTS between Georgia and Kentucky?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in PTS between Georgia and Kentucky",
+        "# Get PTS value for Georgia",
+        "value1 = df[df['team'] == 'Georgia']['PTS'].values[0]",
+        "# Get PTS value for Kentucky",
+        "value2 = df[df['team'] == 'Kentucky']['PTS'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in PTS between Georgia and Kentucky is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in PTS between Missouri and South Carolina?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in PTS between Missouri and South Carolina",
+        "# Get PTS value for Missouri",
+        "value1 = df[df['team'] == 'Missouri']['PTS'].values[0]",
+        "# Get PTS value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['PTS'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in PTS between Missouri and South Carolina is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more PAT, Auburn or South Carolina?",
+      "answer_steps": [
+        "# Python code to compare PAT between Auburn and South Carolina",
+        "# Get PAT value for Auburn",
+        "value1 = df[df['team'] == 'Auburn']['PAT'].values[0]",
+        "# Get PAT value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['PAT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Auburn' if value1 > value2 else 'South Carolina'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Auburn has more PAT with a value of 30'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more 2PT, Kentucky or Ole Miss?",
+      "answer_steps": [
+        "# Python code to compare 2PT between Kentucky and Ole Miss",
+        "# Get 2PT value for Kentucky",
+        "value1 = df[df['team'] == 'Kentucky']['2PT'].values[0]",
+        "# Get 2PT value for Ole Miss",
+        "value2 = df[df['team'] == 'Ole Miss']['2PT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Kentucky' if value1 > value2 else 'Ole Miss'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Kentucky has more 2PT with a value of 1'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more TD, Arkansas or Texas?",
+      "answer_steps": [
+        "# Python code to compare TD between Arkansas and Texas",
+        "# Get TD value for Arkansas",
+        "value1 = df[df['team'] == 'Arkansas']['TD'].values[0]",
+        "# Get TD value for Texas",
+        "value2 = df[df['team'] == 'Texas']['TD'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Arkansas' if value1 > value2 else 'Texas'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Texas has more TD with a value of 47'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more PAT, Ole Miss or LSU?",
+      "answer_steps": [
+        "# Python code to compare PAT between Ole Miss and LSU",
+        "# Get PAT value for Ole Miss",
+        "value1 = df[df['team'] == 'Ole Miss']['PAT'].values[0]",
+        "# Get PAT value for LSU",
+        "value2 = df[df['team'] == 'LSU']['PAT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Ole Miss' if value1 > value2 else 'LSU'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Ole Miss has more PAT with a value of 47'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in 2PT between LSU and Tennessee?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in 2PT between LSU and Tennessee",
+        "# Get 2PT value for LSU",
+        "value1 = df[df['team'] == 'LSU']['2PT'].values[0]",
+        "# Get 2PT value for Tennessee",
+        "value2 = df[df['team'] == 'Tennessee']['2PT'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in 2PT between LSU and Tennessee is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in FG between LSU and Arkansas?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in FG between LSU and Arkansas",
+        "# Get FG value for LSU",
+        "value1 = df[df['team'] == 'LSU']['FG'].values[0]",
+        "# Get FG value for Arkansas",
+        "value2 = df[df['team'] == 'Arkansas']['FG'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in FG between LSU and Arkansas is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in AVG/G between Texas and Missouri?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in AVG/G between Texas and Missouri",
+        "# Get AVG/G value for Texas",
+        "value1 = df[df['team'] == 'Texas']['AVG/G'].values[0]",
+        "# Get AVG/G value for Missouri",
+        "value2 = df[df['team'] == 'Missouri']['AVG/G'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in AVG/G between Texas and Missouri is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more SAF, Texas A&M or Oklahoma?",
+      "answer_steps": [
+        "# Python code to compare SAF between Texas A&M and Oklahoma",
+        "# Get SAF value for Texas A&M",
+        "value1 = df[df['team'] == 'Texas A&M']['SAF'].values[0]",
+        "# Get SAF value for Oklahoma",
+        "value2 = df[df['team'] == 'Oklahoma']['SAF'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Texas A&M' if value1 > value2 else 'Oklahoma'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Oklahoma has more SAF with a value of 1'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in TD between Alabama and LSU?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in TD between Alabama and LSU",
+        "# Get TD value for Alabama",
+        "value1 = df[df['team'] == 'Alabama']['TD'].values[0]",
+        "# Get TD value for LSU",
+        "value2 = df[df['team'] == 'LSU']['TD'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in TD between Alabama and LSU is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more TD, Oklahoma or South Carolina?",
+      "answer_steps": [
+        "# Python code to compare TD between Oklahoma and South Carolina",
+        "# Get TD value for Oklahoma",
+        "value1 = df[df['team'] == 'Oklahoma']['TD'].values[0]",
+        "# Get TD value for South Carolina",
+        "value2 = df[df['team'] == 'South Carolina']['TD'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Oklahoma' if value1 > value2 else 'South Carolina'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'South Carolina has more TD with a value of 33'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more G, Texas A&M or Georgia?",
+      "answer_steps": [
+        "# Python code to compare G between Texas A&M and Georgia",
+        "# Get G value for Texas A&M",
+        "value1 = df[df['team'] == 'Texas A&M']['G'].values[0]",
+        "# Get G value for Georgia",
+        "value2 = df[df['team'] == 'Georgia']['G'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Texas A&M' if value1 > value2 else 'Georgia'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Georgia has more G with a value of 9'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more TD, Georgia or Florida?",
+      "answer_steps": [
+        "# Python code to compare TD between Georgia and Florida",
+        "# Get TD value for Georgia",
+        "value1 = df[df['team'] == 'Georgia']['TD'].values[0]",
+        "# Get TD value for Florida",
+        "value2 = df[df['team'] == 'Florida']['TD'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Georgia' if value1 > value2 else 'Florida'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Georgia has more TD with a value of 33'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more G, Georgia or Texas A&M?",
+      "answer_steps": [
+        "# Python code to compare G between Georgia and Texas A&M",
+        "# Get G value for Georgia",
+        "value1 = df[df['team'] == 'Georgia']['G'].values[0]",
+        "# Get G value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['G'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Georgia' if value1 > value2 else 'Texas A&M'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Texas A&M has more G with a value of 9'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more PAT, Mississippi St. or Texas?",
+      "answer_steps": [
+        "# Python code to compare PAT between Mississippi St. and Texas",
+        "# Get PAT value for Mississippi St.",
+        "value1 = df[df['team'] == 'Mississippi St.']['PAT'].values[0]",
+        "# Get PAT value for Texas",
+        "value2 = df[df['team'] == 'Texas']['PAT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Mississippi St.' if value1 > value2 else 'Texas'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Texas has more PAT with a value of 46'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "Which has more 2PT, Ole Miss or Georgia?",
+      "answer_steps": [
+        "# Python code to compare 2PT between Ole Miss and Georgia",
+        "# Get 2PT value for Ole Miss",
+        "value1 = df[df['team'] == 'Ole Miss']['2PT'].values[0]",
+        "# Get 2PT value for Georgia",
+        "value2 = df[df['team'] == 'Georgia']['2PT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Ole Miss' if value1 > value2 else 'Georgia'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Georgia has more 2PT with a value of 1'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in 2PT between Texas A&M and Alabama?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in 2PT between Texas A&M and Alabama",
+        "# Get 2PT value for Texas A&M",
+        "value1 = df[df['team'] == 'Texas A&M']['2PT'].values[0]",
+        "# Get 2PT value for Alabama",
+        "value2 = df[df['team'] == 'Alabama']['2PT'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in 2PT between Texas A&M and Alabama is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more SAF, Auburn or Texas A&M?",
+      "answer_steps": [
+        "# Python code to compare SAF between Auburn and Texas A&M",
+        "# Get SAF value for Auburn",
+        "value1 = df[df['team'] == 'Auburn']['SAF'].values[0]",
+        "# Get SAF value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['SAF'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Auburn' if value1 > value2 else 'Texas A&M'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Texas A&M has more SAF with a value of 0'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    },
+    {
+      "question": "What is the relative difference in TD between Texas A&M and LSU?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in TD between Texas A&M and LSU",
+        "# Get TD value for Texas A&M",
+        "value1 = df[df['team'] == 'Texas A&M']['TD'].values[0]",
+        "# Get TD value for LSU",
+        "value2 = df[df['team'] == 'LSU']['TD'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in TD between Texas A&M and LSU is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "What is the relative difference in TD between Tennessee and Texas A&M?",
+      "answer_steps": [
+        "# Python code to calculate relative difference in TD between Tennessee and Texas A&M",
+        "# Get TD value for Tennessee",
+        "value1 = df[df['team'] == 'Tennessee']['TD'].values[0]",
+        "# Get TD value for Texas A&M",
+        "value2 = df[df['team'] == 'Texas A&M']['TD'].values[0]",
+        "# Calculate absolute difference",
+        "diff = abs(value1 - value2)",
+        "# Calculate base value (minimum of the two values)",
+        "base_value = min(value1, value2)",
+        "# Calculate percentage difference",
+        "result = (diff / base_value) * 100",
+        "# Format and return the result",
+        "answer = f'The relative difference in TD between Tennessee and Texas A&M is {result:.2f}%'"
+      ],
+      "category": "comparison",
+      "answer_type": "relative_difference"
+    },
+    {
+      "question": "Which has more 2PT, Georgia or Missouri?",
+      "answer_steps": [
+        "# Python code to compare 2PT between Georgia and Missouri",
+        "# Get 2PT value for Georgia",
+        "value1 = df[df['team'] == 'Georgia']['2PT'].values[0]",
+        "# Get 2PT value for Missouri",
+        "value2 = df[df['team'] == 'Missouri']['2PT'].values[0]",
+        "# Determine which entity has higher value",
+        "winner = 'Georgia' if value1 > value2 else 'Missouri'",
+        "winning_value = max(value1, value2)",
+        "# Format and return the result",
+        "answer = f'Missouri has more 2PT with a value of 2'"
+      ],
+      "category": "comparison",
+      "answer_type": "simple_comparison"
+    }
+  ],
+  "metadata": {
+    "total_pairs": 200,
+    "pairs_per_category": 50,
+    "source_file": "unknown",
+    "entity_type": "team"
+  }
+}
