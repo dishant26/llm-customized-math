@@ -1,0 +1,160 @@
+{
+    "direct_recall": {
+        "questions": [
+            {
+                "template": "What is the <column> for <entity>?",
+                "answer_type": "direct_recall"
+            },
+            {
+                "template": "What's the value of <column> for <entity>?",
+                "answer_type": "direct_recall"
+            },
+            {
+                "template": "Show me the <column> corresponding to <entity>",
+                "answer_type": "direct_recall"
+            }
+        ],
+        "answer_template": [
+            "# Python code to find the <column> for <entity>",
+            "# Filter the dataframe for the specific <entity_type>",
+            "result = df[df['<entity_type>'] == '<entity>']['<column>'].values[0]",
+            "# Format and return the result",
+            "answer = f'The <column> for <entity> is {result}'"
+        ]
+    },
+    "ranking": {
+        "questions": [
+            {
+                "template": "Which <entity_type> has the highest <column>?",
+                "answer_type": "highest/lowest"
+            },
+            {
+                "template": "Which <entity_type> has the lowest <column>?",
+                "answer_type": "highest/lowest"
+            },
+            {
+                "template": "List the top <n> <entity_type>s by <column>",
+                "answer_type": "top_n"
+            }
+        ],
+        "answer_template": {
+            "highest/lowest": [
+                "# Python code to find the <entity_type> with the {extreme_type} <column>",
+                "# Sort the dataframe by <column> in {sort_order} order",
+                "sorted_df = df.sort_values('<column>', ascending={is_ascending})",
+                "# Get the first row which has the {extreme_type} value",
+                "result_entity = sorted_df.iloc[0]['<entity_type>']",
+                "result_value = sorted_df.iloc[0]['<column>']",
+                "# Format and return the result",
+                "answer = f'The <entity_type> with {extreme_type} <column> is {result_entity} with a value of {result_value}'"
+            ],
+            "top_n": [
+                "# Python code to find top <n> <entity_type>s by <column>",
+                "# Sort the dataframe by <column> in descending order",
+                "sorted_df = df.sort_values('<column>', ascending=False)",
+                "# Select top <n> rows",
+                "top_n_df = sorted_df.head(<n>)",
+                "# Create a formatted string with the results",
+                "result_list = []",
+                "for _, row in top_n_df.iterrows():",
+                "    result_list.append(f\"- {row['<entity_type>']}: {row['<column>']}\")",
+                "# Join the results with newlines",
+                "answer = 'Top <n> <entity_type>s by <column>:\\n' + '\\n'.join(result_list)"
+            ]
+        }
+    },
+    "mathematical": {
+        "questions": [
+            {
+                "template": "What is the sum of <column> for <entity1> and <entity2>?",
+                "answer_type": "sum_two"
+            },
+            {
+                "template": "Calculate the difference in <column> between <entity1> and <entity2>",
+                "answer_type": "difference"
+            },
+            {
+                "template": "What is the average <column> for <entity1> and <entity2>?",
+                "answer_type": "average_two"
+            }
+        ],
+        "answer_template": {
+            "sum_two": [
+                "# Python code to calculate sum of <column> for <entity1> and <entity2>",
+                "# Get <column> value for <entity1>",
+                "value1 = df[df['<entity_type>'] == '<entity1>']['<column>'].values[0]",
+                "# Get <column> value for <entity2>",
+                "value2 = df[df['<entity_type>'] == '<entity2>']['<column>'].values[0]",
+                "# Calculate the sum",
+                "result = value1 + value2",
+                "# Format and return the result",
+                "answer = f'The sum of <column> for <entity1> and <entity2> is {result}'"
+            ],
+            "difference": [
+                "# Python code to calculate difference in <column> between <entity1> and <entity2>",
+                "# Get <column> value for <entity1>",
+                "value1 = df[df['<entity_type>'] == '<entity1>']['<column>'].values[0]",
+                "# Get <column> value for <entity2>",
+                "value2 = df[df['<entity_type>'] == '<entity2>']['<column>'].values[0]",
+                "# Calculate the difference",
+                "result = value1 - value2",
+                "# Format and return the result",
+                "answer = f'The difference in <column> between <entity1> and <entity2> is {result}'"
+            ],
+            "average_two": [
+                "# Python code to calculate average <column> for <entity1> and <entity2>",
+                "# Get <column> value for <entity1>",
+                "value1 = df[df['<entity_type>'] == '<entity1>']['<column>'].values[0]",
+                "# Get <column> value for <entity2>",
+                "value2 = df[df['<entity_type>'] == '<entity2>']['<column>'].values[0]",
+                "# Calculate the sum",
+                "total = value1 + value2",
+                "# Calculate the average",
+                "result = total / 2",
+                "# Format and return the result",
+                "answer = f'The average <column> for <entity1> and <entity2> is {result}'"
+            ]
+        }
+    },
+    "comparison": {
+        "questions": [
+            {
+                "template": "Which has more <column>, <entity1> or <entity2>?",
+                "answer_type": "simple_comparison"
+            },
+            {
+                "template": "What is the relative difference in <column> between <entity1> and <entity2>?",
+                "answer_type": "relative_difference"
+            }
+        ],
+        "answer_template": {
+            "simple_comparison": [
+                "# Python code to compare <column> between <entity1> and <entity2>",
+                "# Get <column> value for <entity1>",
+                "value1 = df[df['<entity_type>'] == '<entity1>']['<column>'].values[0]",
+                "# Get <column> value for <entity2>",
+                "value2 = df[df['<entity_type>'] == '<entity2>']['<column>'].values[0]",
+                "# Determine which entity has higher value",
+                "winner = '<entity1>' if value1 > value2 else '<entity2>'",
+                "winning_value = max(value1, value2)",
+                "# Format and return the result",
+                "answer = f'{winner} has more <column> with a value of {winning_value}'"
+            ],
+            "relative_difference": [
+                "# Python code to calculate relative difference in <column> between <entity1> and <entity2>",
+                "# Get <column> value for <entity1>",
+                "value1 = df[df['<entity_type>'] == '<entity1>']['<column>'].values[0]",
+                "# Get <column> value for <entity2>",
+                "value2 = df[df['<entity_type>'] == '<entity2>']['<column>'].values[0]",
+                "# Calculate absolute difference",
+                "diff = abs(value1 - value2)",
+                "# Calculate base value (minimum of the two values)",
+                "base_value = min(value1, value2)",
+                "# Calculate percentage difference",
+                "result = (diff / base_value) * 100",
+                "# Format and return the result",
+                "answer = f'The relative difference in <column> between <entity1> and <entity2> is {result:.2f}%'"
+            ]
+        }
+    }
+} 
